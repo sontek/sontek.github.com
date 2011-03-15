@@ -1,0 +1,122 @@
+{
+    "developer": {
+        "name": "John Anderson",
+        "city": "Atlanta", 
+        "state": "Georgia"
+    },
+    "contact": [
+        { "method": "Email", "value": "sontek@gmail.com" },
+        { "method": "Cell", "value": "801-815-9567" },
+        { "method": "LinkedIn", "value": "sontek" },
+        { "method": "Github", "value": "sontek" }
+    ],
+    "preamble": { 
+        "title": "Open Source Hacker",
+        "content": "I want to be able to work on interesting problems using great technologies"
+    },
+    "catalog": [
+        { 
+            "name": "Languages",
+            "skills": [
+                { "key": "python", "name": "Python" },
+                { "key": "csharp", "name": "C#" },
+                { "key": "javascript", "name": "JavaScript / ECMAScript" },
+                { "key": "xml", "name": "XML/XSLT" },
+                { "key": "bash", "name": "Bash" }
+            ]
+        },
+        { 
+            "name": "Frameworks",
+            "skills": [
+                { "key": "django", "name": "Django", "href": "http://www.djangoproject.com/" },
+                { "key": "celery", "name": "Django", "href": "http://celeryproject.org/" },
+                { "key": "flask", "name": "Flask", "href": "http://flask.pocoo.org/" },
+                { "key": "appengine", "name": "Google AppEngine", "href": "http://code.google.com/appengine/" },
+                { "key": "sqlalchemy", "name": "SQL Alchemy", "href": "http://www.sqlalchemy.org/" },
+                { "key": "gtk", "name": "GTK", "href": "http://www.gtk.org/" },
+                { "key": "aspnet", "name": "ASP.NET", "href": "http://www.asp.net/" },
+                { "key": "aspnetmvc3", "name": "ASP.NET MVC 3", "href": "http://www.asp.net/mvc" },
+                { "key": "jquery", "name": "jQuery", "href": "http://jquery.com" },
+                { "key": "gevent", "name": "gevent", "href": "http://www.gevent.org/" },
+                { "key": "msajax", "name": "Microsoft Ajax Library" },
+                { "key": "wpf", "name": "Windows Presentation Foundation" },
+                { "key": "socketio", "name": "Socket IO", "href": "http://socket.io/" }
+            ]
+        },
+        {
+            "name": "Databases",
+            "skills": [
+                { "key": "redis", "name": "Redis", "href": "http://redis.io/" },
+                { "key": "sqlserver", "name": "MS SQL Server" },
+                { "key": "sqlite", "name": "SQLite", "href": "http://www.sqlite.org/" },
+                { "key": "postgresql", "name": "PostgreSQL", "href": "http://www.postgresql.org/" },
+                { "key": "mysql", "name": "MySQL", "href": "http://www.mysql.com/" }
+            ]
+        },
+        {
+            "name": "Miscellaneous",
+            "skills": [
+                { "key": "linux", "name": "Linux (Debian, Fedora, SUSE)" },
+                { "key": "vim", "name": "Vim", "href": "http://www.vim.org/" },
+                { "key": "apache", "name": "Apache", "href": "http://www.apache.org/" },
+                { "key": "nginx", "name": "nginx", "href": "http://nginx.org/" },
+                { "key": "gunicorn", "name": "Green Unicorn", "href": "http://gunicorn.org/" },
+                { "key": "amazon", "name": "Amazon EC2/S3" },
+                { "key": "ccnet", "name": "BuildBot and CruiseControl.NET" }
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "type": "professional",
+            "start": 2006,
+            "company": "Orchid Event Solutions",
+            "title": "Lead Architect",
+            "description": "Conference Management and Registration Software for generating dynamic forms with complex business logic. Had to scale up to 15,000 writes per minute.",
+            "accomplishments": [
+                "Implemented standards to make the company PCI compliant", "Created websitethat was fully globalized and had an open API for clients to interact with through our web services. The application is used around the world in events and conferences. All interaction done with the web services on our side was done through javascript when available but was completely functional with javascript disabled.",
+"Created website for designing and executing custom reports and generating them into many file formats (excel, pdf, word, html, and xml). The reports themselves were done by dynamically generating sql queries dependent on their selections and exporting the returned data to xml and transforming it with a xslt stylesheet.",
+"Interfaced with multiple payment gateways through Authorize.NET and Verisign and developed the encryption necessary to pass the visa requirements to store credit card information.",
+"Helped manage the Cisco PIX firewall and many layer2/3 switches for both our development and production environments.",
+"Configured and managed the subversion server setup (tags, branches, trunk) and merged over 5 years worth of code from sourcesafe and team foundation server to SVN."
+            ],
+            "skillKeys": [
+                { "key": "ccnet" },
+                { "key": "csharp" },
+                { "key": "aspnet" },
+                { "key": "aspnetmvc3" },
+                { "key": "javascript" },
+                { "key": "jquery" },
+                { "key": "msajax" },
+                { "key": "sqlserver" },
+                { "key": "wpf" },
+                { "key": "xml" },
+                { "key": "python" },
+                { "key": "linux" },
+                { "key": "sqlite" },
+                { "key": "bash" }
+            ]
+        },
+        {
+            "type": "professional",
+            "start": 2005,
+            "end": 2006,
+            "company": "My Horse Player",
+            "title": "Developer",
+            "description": "Had to parse and analyze terrabytes of past horse racing data and generate statistics to help handicappers bet on the races.",
+            "accomplishments": [
+"Created a windows application using XML, SOAP web services, and C# .NET for generating and displaying statistics on horse races. The application was multi-threaded and did most of the statistic generating behind the scenes and cached the results in XML.",
+"Created a full company web based intranet with C# .NET which involved task scheduling, time sheets, work orders, inventory, and sales quoting. All authentication and grouping was handled through LDAP."
+            ],
+            "skillKeys": [
+                { "key": "csharp" },
+                { "key": "javascript" },
+                { "key": "xml" },
+                { "key": "aspnet" },
+                { "key": "msajax" },
+                { "key": "jquery" },
+                { "key": "sqlserver" }
+            ]
+        }
+    ]
+}

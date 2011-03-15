@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>John Anderson's Resume</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.js"></script>
+        <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+        <script type="text/javascript" src="resume.js"></script>
+        <link type="text/css" rel="Stylesheet" href="resume.css" />
+    </head>
+    <body>
+        <div id="resume-template" style="display: none">
+            <div class="section">
+                <div id="banner">
+                    <ul class="contact-info">
+                    {{each contact}}
+                        <li>
+                            <label class="method">${method}:</label>
+                        {{if method == "Email"}}
+                            <a href="mailto:${value}">${value}</a>
+                        {{else method == "gtalk"}}
+                            <a href="gtalk:chat?jid=${value}">${value}</a>
+                        {{else method == "skype"}}
+                            ${value} (<a href="skype:${value}?call">call</a> or <a href="skype:${value}?chat">chat</a>)
+                        {{else method == "LinkedIn"}}
+                            <a href="http://linkedin.com/in/${value}" target="_blank">${value}</a>
+                        {{else method == "Github"}}
+                            <a href="http://github.com/${value}" target="_blank">${value}</a>
+                        {{else}}
+                            ${value}
+                        {{/if}}
+                        </li>
+                    {{/each}}
+                    </ul>
+
+<!--
+                    <ul class="basic-info">
+                        <li>${developer.name}</li>
+                        <li>${developer.city}, ${developer.state}</li>
+                    </ul>
+                    -->
+                    <div class="preamble">
+                        <h1>${developer.name}</h1>
+                        <p>${preamble.title}</p>
+                        <p>${preamble.content}</p>
+                    </div>
+
+                    <br class="clear" />
+                </div>
+            </div>
+
+            <div class="skills-container curved">
+                <h1>My Skills</h1>
+                {{each catalog}}
+                    <div class="skills-category">
+                        <h2>${name}</h2>
+                        <ul>
+                        {{each skills}}
+                            <li class="skill-define ${key}" skill-key="${key}">
+                            {{if href}}
+                                <a href="${href}" target="_blank">${name}</a>
+                            {{else}}
+                                ${name}
+                            {{/if}}
+                            </li>
+                        {{/each}}
+                        </ul>
+                    </div>
+                {{/each}}
+                <br style="float: none; clear: both;" />
+            </div>
+
+            <div class="experiences section curved">
+            <h1>Experiences</h1>
+            {{each experiences}}
+                <div class="${type} experience curved">
+                    <div class="title">${title} @ ${company}<span class="type">${type}</span></div>
+                    <div class="position-info">
+                        <span class="timespan">${timespan}</span>
+                        <span class="toggle-skills">
+                            <a href="javascript:void(0)">skills used</a>
+                            <div class="skills-used-container">
+                                {{each categories}}
+                                    <div class="skills-category">
+                                        <h2>${name}</h2>
+                                        <ul class="skills-used">
+                                            {{each skills}}
+                                            <li class="skill-use ${key}" skill-key="${key}">${name}</li>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        </span>
+                    </div>
+                    <div class="description">${description}</div>
+                    <ul class="accomplishments">
+                    {{each accomplishments}}
+                        <li>${this}</li>
+                    {{/each}}
+                    </ul>
+                </div>
+            {{/each}}
+            </div>
+        </div>
+        <span id="status">Loading ... </span>
+        <div id="wrapper">
+            <div id="content"></div>
+            <div id="push"></div>
+        </div>
+        <div id="footer">
+            Designed and Developed by John Anderson, &copy; 2011
+        </div>
+    </body>
+</html>
