@@ -83,7 +83,9 @@ body {
     background-color: #FFF;
     -webkit-box-shadow: rgba(0, 0, 0, 0.398438) 0px 5px 5px;
 }
-
+.skills-category h2 {
+    font-size: 1.2em;
+}
 .skill-highlight {
     border: 2px dashed #000;
     background-color: #FFF89C !important;
