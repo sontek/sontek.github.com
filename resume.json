@@ -29,7 +29,7 @@
             "name": "Frameworks",
             "skills": [
                 { "key": "django", "name": "Django", "href": "http://www.djangoproject.com/" },
-                { "key": "celery", "name": "Django", "href": "http://celeryproject.org/" },
+                { "key": "celery", "name": "Celery", "href": "http://celeryproject.org/" },
                 { "key": "flask", "name": "Flask", "href": "http://flask.pocoo.org/" },
                 { "key": "appengine", "name": "Google AppEngine", "href": "http://code.google.com/appengine/" },
                 { "key": "sqlalchemy", "name": "SQL Alchemy", "href": "http://www.sqlalchemy.org/" },
@@ -62,6 +62,8 @@
                 { "key": "nginx", "name": "nginx", "href": "http://nginx.org/" },
                 { "key": "gunicorn", "name": "Green Unicorn", "href": "http://gunicorn.org/" },
                 { "key": "amazon", "name": "Amazon EC2/S3" },
+                { "key": "git", "name": "Git" },
+                { "key": "svn", "name": "Subversion" },
                 { "key": "ccnet", "name": "BuildBot and CruiseControl.NET" }
             ]
         }
@@ -92,9 +94,16 @@
                 { "key": "wpf" },
                 { "key": "xml" },
                 { "key": "python" },
+                { "key": "django" },
                 { "key": "linux" },
                 { "key": "sqlite" },
-                { "key": "bash" }
+                { "key": "bash" },
+                { "key": "amazon" },
+                { "key": "apache" },
+                { "key": "git" },
+                { "key": "svn" },
+                { "key": "vim" },
+                { "key": "sqlalchemy" }
             ]
         },
         {
@@ -106,6 +115,7 @@
             "description": "Had to parse and analyze terrabytes of past horse racing data and generate statistics to help handicappers bet on the races.",
             "accomplishments": [
 "Created a windows application using XML, SOAP web services, and C# .NET for generating and displaying statistics on horse races. The application was multi-threaded and did most of the statistic generating behind the scenes and cached the results in XML.",
+"Converted the windows application to an ASP.NET application",
 "Created a full company web based intranet with C# .NET which involved task scheduling, time sheets, work orders, inventory, and sales quoting. All authentication and grouping was handled through LDAP."
             ],
             "skillKeys": [
@@ -115,7 +125,48 @@
                 { "key": "aspnet" },
                 { "key": "msajax" },
                 { "key": "jquery" },
-                { "key": "sqlserver" }
+                { "key": "sqlserver" },
+                { "key": "vim" }
+            ]
+        },
+        {
+            "type": "personal",
+            "start": 2001,
+            "company": "Open Source",
+            "title": "Ninja Hacker",
+            "description": "I try to help improve and work on any open source projects that I use.",
+            "accomplishments": [
+"PyQuil - Crossplatform query analyzer",
+"Django - I contribute many patches to Django and was part of the PyCon 2011 sprints",
+"django-tictactoe - A realtime multiplayer tic tac toe game using redis, gevent, and socketio.",
+"django-tekblog - A blog engine using django and pygments for syntax highlighting",
+"django-tekextensions - A set of template tags, generic views, and extensions to django",
+"weechat - I maintain a couple of plugins to a console based IRC client",
+"coherence - A upnp server that works with xbox 360"
+            ],
+            "skillKeys": [
+                { "key": "csharp" },
+                { "key": "javascript" },
+                { "key": "xml" },
+                { "key": "python" },
+                { "key": "redis" },
+                { "key": "celery" },
+                { "key": "django" },
+                { "key": "flask" },
+                { "key": "appengine" },
+                { "key": "postgresql" },
+                { "key": "mysql" },
+                { "key": "sqlalchemy" },
+                { "key": "gtk" },
+                { "key": "gevent" },
+                { "key": "git" },
+                { "key": "svn" },
+                { "key": "vim" },
+                { "key": "nginx" },
+                { "key": "apache" },
+                { "key": "gunicorn" },
+                { "key": "linux" },
+                { "key": "socketio" }
             ]
         }
     ]
