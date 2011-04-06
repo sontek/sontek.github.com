@@ -76,7 +76,7 @@
             "title": "Lead Architect",
             "description": "Conference Management and Registration Software for generating dynamic forms with complex business logic. Had to scale up to 15,000 writes per minute.",
             "accomplishments": [
-                "Implemented standards to make the company PCI compliant", "Created websitethat was fully globalized and had an open API for clients to interact with through our web services. The application is used around the world in events and conferences. All interaction done with the web services on our side was done through javascript when available but was completely functional with javascript disabled.",
+                "Implemented standards to make the company PCI compliant", "Created website that was fully globalized and had an open API for clients to interact with through our web services. The application is used around the world in events and conferences. All interaction done with the web services on our side was done through javascript when available but was completely functional with javascript disabled.",
 "Created website for designing and executing custom reports and generating them into many file formats (excel, pdf, word, html, and xml). The reports themselves were done by dynamically generating sql queries dependent on their selections and exporting the returned data to xml and transforming it with a xslt stylesheet.",
 "Interfaced with multiple payment gateways through Authorize.NET and Verisign and developed the encryption necessary to pass the visa requirements to store credit card information.",
 "Helped manage the Cisco PIX firewall and many layer2/3 switches for both our development and production environments.",
