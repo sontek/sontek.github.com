@@ -6,7 +6,7 @@
     },
     "contact": [
         { "method": "Email", "value": "sontek@gmail.com" },
-        { "method": "Cell", "value": "801-815-9567" },
+        { "method": "Cell", "value": "770-500-9074" },
         { "method": "LinkedIn", "value": "sontek" },
         { "method": "Github", "value": "sontek" }
     ],
@@ -69,6 +69,26 @@
         }
     ],
     "experiences": [
+        {
+            "type": "professional",
+            "start": 2011,
+            "company": "Pictage",
+            "title": "Senior Developer",
+            "description": "Worked on our 3 large web applications for professional photographers",
+            "accomplishments": [
+"Developed our own content management system built using Python and our own web framework",
+"Re-worked our celery tasks to be easily testable",
+            ],
+            "skillKeys": [
+                { "key": "python" },
+                { "key": "javascript" },
+                { "key": "postgresql" },
+                { "key": "celery" },
+                { "key": "redis" },
+                { "key": "mongodb" },
+                { "key": "vim" }
+            ]
+        },
         {
             "type": "professional",
             "start": 2006,
