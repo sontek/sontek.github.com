@@ -77,7 +77,7 @@
             "description": "Worked on our 3 large web applications for professional photographers",
             "accomplishments": [
 "Developed our own content management system built using Python and our own web framework",
-"Re-worked our celery tasks to be easily testable",
+"Re-worked our celery tasks to be easily testable"
             ],
             "skillKeys": [
                 { "key": "python" },
