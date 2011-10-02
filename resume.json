@@ -92,6 +92,7 @@
         {
             "type": "professional",
             "start": 2006,
+            "end": 2011,
             "company": "Orchid Event Solutions",
             "title": "Lead Architect",
             "description": "Conference Management and Registration Software for generating dynamic forms with complex business logic. Had to scale up to 15,000 writes per minute.",
