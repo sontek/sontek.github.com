@@ -74,10 +74,10 @@
             "start": 2011,
             "company": "Pictage",
             "title": "Senior Developer",
-            "description": "Worked on our 3 large web applications for professional photographers",
+            "description": "Developed web applications and services for professional photographers.",
             "accomplishments": [
-"Developed our own content management system built using Python and our own web framework",
-"Re-worked our celery tasks to be easily testable"
+            "ShootQ - A web service used by photographers to manage their business and CRM data.  Worked with a variety of technologies to solve unique problems from caching and document storage in MongoDB to an asynchronous message passing system for distributing asynchronous work.",
+            "Nimbus and Atrium - A unified “website/blog” and “customer identity” platform used by photographers to establish online presence for their businesses."
             ],
             "skillKeys": [
                 { "key": "python" },
