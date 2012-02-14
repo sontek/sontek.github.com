@@ -1,0 +1,53 @@
+<html>
+  <head>
+      <title>Rich Sleppy Memorial</title>
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <link rel="stylesheet" type="text/css" href="orbit.css" />
+      <link href='http://fonts.googleapis.com/css?family=Chicle|Patua+One|Chivo' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="jquery.js"></script>
+      <script type="text/javascript" src="orbit.js"></script>
+      <script type="text/javascript">
+        $(window).load(function() {
+            $('#featured').orbit({
+              captions: true
+            });
+        });
+      </script>
+  </head>
+  <body>
+    <div id="outer-container">
+      <div id="content">
+        <div id="slogan">
+          Rich Sleppy<br />
+          Memorial
+          <div id="contact">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="7VTQXEDH6DWXN">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+              <p class="space">We are planning a Memorial Plaque to place on the USS Oriskany in the not so distant future</p>
+              <p class="space">Plans are in the works as we speak. What we need from you (Rich's Friends) is financial support. For every donation of $100 or more you will earn a place on one of the boats that will go the USS Oriskany to place the Plaque and be part or Rich's Memorial Service.</p>
+          </div>
+        </div>
+        <div id="featured"> 
+          <img src="images/sleppy1.jpg" data-caption="#sleppy1" />
+          <img src="images/sleppy3.jpg" data-caption="#sleppy2" />
+          <img src="images/sleppy4.jpg" />
+          <img src="images/sleppy5.jpg" />
+        </div>
+        <div class="slideshow">
+          <p class="space">Any Money collected above what is needed toward the Plaque will go toward the Rich Sleppy Memorial reef. An unnamed reef that already exists will be renamed the Rich Sleppy Memorial Reef in the next couple of weeks and for every $1500 we raise we will add another Walter Marine Concrete Module to it.</p>
+          <p class="space">We will hopefully have a web page up in the next day or so for individuals to make donations to and once I have that info I will post it here as well as share with all the Local Dive Shops.</p>
+        </div>
+        <span class="orbit-caption" id="sleppy1">Hey brotha</span>
+        <span class="orbit-caption" id="sleppy2">Tow straps are the way to go</span>
+
+        <br class="clear" />
+      </div>
+      <div id="copy">
+      </div>
+    </div>
+  </body>
+</html>

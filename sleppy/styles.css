@@ -1,0 +1,123 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+html {
+		/* IE10 */ 
+background-image: -ms-linear-gradient(top, #0A296D 0%, #02112E 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #0A296D 0%, #02112E 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #0A296D 0%, #02112E 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0A296D), color-stop(1, #02112E));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #0A296D 0%, #02112E 100%);
+
+/* Proposed W3C Markup */ 
+background-image: linear-gradient(top, #0A296D 0%, #02112E 100%);	
+background-repeat:no-repeat;
+background-color:#02112e;
+}
+
+body {
+  background-image: url('bg.png');
+	background-repeat:no-repeat;
+}
+
+h4 {
+  margin: 0;
+}
+
+#outer-container {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#content {
+  background-color: rgba(0, 0, 0, .5);
+  color: #FFF;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+#logo {
+  font-size: 3.4em;
+  text-align: center;
+  font-family: 'Patua One', cursive;
+  color: #FFF;
+  text-shadow: 2px 2px 2px #000;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255, 1)), color-stop(50%, rgba(255,255,255,.7)), to(rgba(255,255,255,1)));  
+}
+
+#slogan {
+  font-family: 'Patua One', sans-serif;
+  font-size: 3.3em;
+  float: left;
+  width: 40%;
+}
+
+#slogan span {
+  border-bottom: solid 2px;
+}
+
+.slideshow {
+  float: left;
+  word-wrap: break-word;
+  font-family: 'Chivo', sans-serif;
+}
+
+.slideshow img {
+  width: 500px;
+}
+
+#copy {
+  margin-top: 10px;
+  font-family: 'Chivo', sans-serif;
+  color: #FFF;
+  text-align: center;
+}
+
+#employees {
+  margin-top: 10px;
+}
+
+#employees img {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+#employees div {
+  padding-bottom: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+#contact {
+  margin-top: 30px;
+  font-family: 'Chivo', sans-serif;
+  font-size: 0.3em;
+}
+#contact ul {
+  list-style: none;
+}
+.orbit-wrapper, #featured {
+  width: 500 !important;
+  float: left;
+  margin-bottom: 10px;
+}
+.left, .right {
+  height: 50px !important;
+  width: 40px !important;
+}
+.space {
+  padding: 5px !important;
+}
