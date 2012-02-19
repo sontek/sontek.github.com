@@ -29,6 +29,7 @@
             "name": "Frameworks",
             "skills": [
                 { "key": "django", "name": "Django", "href": "http://www.djangoproject.com/" },
+                { "key": "pyramid", name": "Pyramid", "href": "http://www.pylonsproject.org/" },
                 { "key": "celery", "name": "Celery", "href": "http://celeryproject.org/" },
                 { "key": "flask", "name": "Flask", "href": "http://flask.pocoo.org/" },
                 { "key": "appengine", "name": "Google AppEngine", "href": "http://code.google.com/appengine/" },
@@ -40,6 +41,7 @@
                 { "key": "gevent", "name": "gevent", "href": "http://www.gevent.org/" },
                 { "key": "msajax", "name": "Microsoft Ajax Library" },
                 { "key": "wpf", "name": "Windows Presentation Foundation" },
+                { "key": "backbone", "name": "Backbone.js" },
                 { "key": "socketio", "name": "Socket IO", "href": "http://socket.io/" }
             ]
         },
@@ -72,10 +74,13 @@
         {
             "type": "professional",
             "start": 2011,
+            "end": 2012,
             "company": "Pictage",
             "title": "Senior Developer",
             "description": "Developed web applications and services for professional photographers.",
             "accomplishments": [
+            "Large Turbogears applications utilizing SQLAlchemy, Celery, Redis, MongoDB, and plenty of javascript. Each developer was in charge of the full stack of whatever they worked on.",
+            "Integrated with Amazon S3, Facebook, Twitter, and Salesforce",
             "ShootQ - A web service used by photographers to manage their business and CRM data.  Worked with a variety of technologies to solve unique problems from caching and document storage in MongoDB to an asynchronous message passing system for distributing asynchronous work.",
             "Nimbus and Atrium - A unified “website/blog” and “customer identity” platform used by photographers to establish online presence for their businesses."
             ],
@@ -86,6 +91,12 @@
                 { "key": "celery" },
                 { "key": "redis" },
                 { "key": "mongodb" },
+                { "key": "pyramid" },
+                { "key": "backbone" },
+                { "key": "nginx" },
+                { "key": "facebook" },
+                { "key": "twitter" },
+                { "key": "amazon" },
                 { "key": "vim" }
             ]
         },
