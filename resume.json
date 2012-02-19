@@ -29,7 +29,7 @@
             "name": "Frameworks",
             "skills": [
                 { "key": "django", "name": "Django", "href": "http://www.djangoproject.com/" },
-                { "key": "pyramid", name": "Pyramid", "href": "http://www.pylonsproject.org/" },
+                { "key": "pyramid", "name": "Pyramid", "href": "http://www.pylonsproject.org/" },
                 { "key": "celery", "name": "Celery", "href": "http://celeryproject.org/" },
                 { "key": "flask", "name": "Flask", "href": "http://flask.pocoo.org/" },
                 { "key": "appengine", "name": "Google AppEngine", "href": "http://code.google.com/appengine/" },
